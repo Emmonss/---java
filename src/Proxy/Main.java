@@ -1,13 +1,12 @@
-package Adapter;
+package Proxy;
 
-
-// µœ÷
+//≤‚ ‘
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Adapter at = new ConcreteAdapter();
-		at.Request();
+		People man = new Lawyer();
+		man.SaySth();
 	}
 
 }
